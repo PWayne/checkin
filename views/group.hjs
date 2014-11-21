@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Groups Admin Panel</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+  
+  <div id="wrapper">
+    <h1>Group Admin</h1>
+    
+    <form method="post" action="/groups">
+    <input name="slug" type="text" placeholder="Slug (All lower-case, no spaces!)" />
+    <input name="title" type="text" placeholder="Title" />
+    <textarea name="description" placeholder="Group Description"></textarea>
+    <input type="submit" value="Submit" id="submit" />
+    </form>
+  </dev>
+    
+  </body>
+</html>
